@@ -37,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
         mEmailView = (AutoCompleteTextView) findViewById(R.id.login_email);
         mPasswordView = (EditText) findViewById(R.id.login_password);
+	//test
 
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
